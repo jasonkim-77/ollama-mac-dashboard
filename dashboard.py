@@ -109,7 +109,7 @@ def parse_ollama_gin_logs(file_path):
     return pd.DataFrame(data)
 
 # 3. Streamlit 대시보드 화면 구성
-st.set_page_config(page_title="SigNoz 스타일 Ollama 대시보드", layout="wide")
+st.set_page_config(page_title="Ollama 대시보드", layout="wide")
 st.title("📊 Ollama 고급 관측성(Observability) 대시보드")
 st.caption(f"📂 실시간 로그 모니터링: `{LOG_PATH}`")
 
