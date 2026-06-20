@@ -6,7 +6,7 @@
     <string>com.ollama.dashboard</string>
     <key>ProgramArguments</key>
     <array>
-        <string>/usr/bin/python3</string>
+        <string>TARGET_DIR/.venv/bin/python3</string>
         <string>-m</string>
         <string>streamlit</string>
         <string>run</string>
@@ -15,14 +15,20 @@
         <string>9999</string>
         <string>--server.address</string>
         <string>0.0.0.0</string>
+	    <string>--server.enableCORS</string>
+        <string>false</string>
+        <string>--server.enableXsrfProtection</string>
+        <string>false</string>
+        <string>--global.developmentMode</string>
+        <string>false</string>
     </array>
     <key>RunAtLoad</key>
     <true/>
     <key>KeepAlive</key>
     <true/>
     <key>StandardOutPath</key>
-    <string>TARGET_DIR/dashboard.log</string>
+    <string>TARGET_DIR/logs/dashboard.log</string>
     <key>StandardErrorPath</key>
-    <string>TARGET_DIR/dashboard_err.log</string>
+    <string>TARGET_DIR/logs/dashboard_err.log</string>
 </dict>
 </plist>
