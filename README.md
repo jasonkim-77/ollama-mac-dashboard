@@ -30,7 +30,7 @@ Mac 로컬 환경에서 구동되는 Ollama 서버의 `server.log`(GIN 프레임
 
 ```bash
 # 1. 저장소 클론 및 프로젝트 이동
-git clone https://github.com/jasonkim-77/ollama-mac-dashboard
+git clone https://github.com/jasonkim-77/ollama-dashboard-mac
 cd ollama-mac-dashboard
 
 # 2. 핵심 의존성 패키지 일괄 설치
