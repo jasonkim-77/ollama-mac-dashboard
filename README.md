@@ -37,6 +37,7 @@ cd ollama-mac-dashboard
 # python3은 설치 되었다는 가정을 합니다.
 
 # 3. 원클릭 동적 세팅 자동 실행 스크립트 가동
+# ssh 상태에서는 권한 문제로 서비스가 설치되지 않습니다. 원격 사용시에는 화면 공유로 설치를 진행해야 합니다.
 chmod +x install.sh
 ./install.sh
 ```
